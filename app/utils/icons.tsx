@@ -1,0 +1,21 @@
+import { CalendarDays, CloudDrizzle, CloudRain, CloudSun, Cloudy, Command, Droplets, Eye, Gauge, Github, Navigation, Search, Snowflake, Sun, SunDim, Sunset, Thermometer, ThermometerSun, UserRound, Wind } from "lucide-react";
+
+export const commandIcon = <Command size={14}></Command>;
+export const github = <Github size={15}></Github>;
+export const searchIcon = <Search></Search>;
+export const drizzleIcon = <CloudDrizzle size={25}></CloudDrizzle>;
+export const rain = <CloudRain size={30}></CloudRain>;
+export const snow = <Snowflake size={30}></Snowflake>;
+export const clearSky = <CloudSun size={30}></CloudSun>;
+export const cloudy = <Cloudy size={30}></Cloudy>;
+export const navigation = <Navigation size={15}></Navigation>;
+export const thermo = <ThermometerSun size={15}></ThermometerSun>;
+export const sunset = <Sunset size={15}></Sunset>;
+export const wind = <Wind size={15}></Wind>;
+export const gauge = <Gauge size={15}></Gauge>;
+export const droplets = <Droplets size={15}></Droplets>;
+export const thermometer = <Thermometer size={15}></Thermometer>;
+export const eye = <Eye size={15}></Eye>;
+export const people = <UserRound size={15}></UserRound>;
+export const calendar = <CalendarDays size={15}></CalendarDays>;
+export const sun = <SunDim size={15}></SunDim>;
